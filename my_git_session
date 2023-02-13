@@ -1,0 +1,71 @@
+Script started on 2023-02-09 17:23:19+05:30 [TERM="xterm-256color" TTY="/dev/tty2" COLUMNS="120" LINES="30"]
+[?2004h]0;keerthana@TIGER1838: ~[01;32mkeerthana@TIGER1838[00m:[01;34m~[00m$ cd mle-training
+[?2004l[?2004h]0;keerthana@TIGER1838: ~/mle-training[01;32mkeerthana@TIGER1838[00m:[01;34m~/mle-training[00m$ git init
+[?2004lReinitialized existing Git repository in /home/keerthana/mle-training/.git/
+[?2004h]0;keerthana@TIGER1838: ~/mle-training[01;32mkeerthana@TIGER1838[00m:[01;34m~/mle-training[00m$ ls
+[?2004lREADME.md  [0m[01;34mmle-training[0m  my_unix_session
+[?2004h]0;keerthana@TIGER1838: ~/mle-training[01;32mkeerthana@TIGER1838[00m:[01;34m~/mle-training[00m$ git statis
+[?2004lgit: 'statis' is not a git command. See 'git --help'.
+
+The most similar command is
+	status
+[?2004h]0;keerthana@TIGER1838: ~/mle-training[01;32mkeerthana@TIGER1838[00m:[01;34m~/mle-training[00m$ git statis[1Psus
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mmle-training/[m
+	[31mmy_unix_session[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;keerthana@TIGER1838: ~/mle-training[01;32mkeerthana@TIGER1838[00m:[01;34m~/mle-training[00m$ git add my_unix_session 
+[?2004l[?2004h]0;keerthana@TIGER1838: ~/mle-training[01;32mkeerthana@TIGER1838[00m:[01;34m~/mle-training[00m$ git add my_unix_session [C[1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [K[1P [1P [1P [K[C c o m m i t [C - m [C a d d [C u n i [1P [1P [1P g i t _ s e s s i o n [C[1@"[C[C[C[C[C[C[C[C[C[C[C[C" [1P[1P[1P[1P
+[?2004l[main 90188d4] git_session
+ 1 file changed, 425 insertions(+)
+ create mode 100644 my_unix_session
+[?2004h]0;keerthana@TIGER1838: ~/mle-training[01;32mkeerthana@TIGER1838[00m:[01;34m~/mle-training[00m$ ls
+[?2004lREADME.md  [0m[01;34mmle-training[0m  my_unix_session
+[?2004h]0;keerthana@TIGER1838: ~/mle-training[01;32mkeerthana@TIGER1838[00m:[01;34m~/mle-training[00m$ git stau[Ktus
+[?2004lOn branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mmle-training/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;keerthana@TIGER1838: ~/mle-training[01;32mkeerthana@TIGER1838[00m:[01;34m~/mle-training[00m$ git branh[Kch -
+[?2004lfatal: '-' is not a valid branch name.
+[?2004h]0;keerthana@TIGER1838: ~/mle-training[01;32mkeerthana@TIGER1838[00m:[01;34m~/mle-training[00m$ git branch -a
+[?2004l[?1h=  git-training[m[m
+* [32mmain[m[m
+  [31mremotes/origin/git-training[m[m
+  [31mremotes/origin/main[m[m
+[K[?1l>[?2004h]0;keerthana@TIGER1838: ~/mle-training[01;32mkeerthana@TIGER1838[00m:[01;34m~/mle-training[00m$ git branch -a[K[2Pstatusls[Kgit commit -m "git_session" [4Padd my_unix_session[Cstatus[Kisls[Kgit initcd mle-trainingls[Krm README.msls[Kcd mle-trainingls[Kcp my_unix_session ~/mle-trainingls[Kcdlsdgit push -u origin mainremote add origin git@github.com:Keerthanavk7/mle-training.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbranch -M main[Kremote add origin git@github.com:Keerthanavk7/mle-training.git
+[?2004lerror: remote origin already exists.
+[?2004h]0;keerthana@TIGER1838: ~/mle-training[01;32mkeerthana@TIGER1838[00m:[01;34m~/mle-training[00m$ git push -u origin main
+[?2004lEnter passphrase for key '/home/keerthana/.ssh/id_ed25519': 
+Enumerating objects: 4, done.
+Counting objects:  25% (1/4)Counting objects:  50% (2/4)Counting objects:  75% (3/4)Counting objects: 100% (4/4)Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 3.85 KiB | 789.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:Keerthanavk7/mle-training.git
+   49753a8..90188d4  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+[?2004h]0;keerthana@TIGER1838: ~/mle-training[01;32mkeerthana@TIGER1838[00m:[01;34m~/mle-training[00m$ git stati[Kus
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mmle-training/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;keerthana@TIGER1838: ~/mle-training[01;32mkeerthana@TIGER1838[00m:[01;34m~/mle-training[00m$ git status[K[K[K[K[K[K[K[K[K[Kexit
+[?2004lexit
+
+Script done on 2023-02-09 17:29:06+05:30 [COMMAND_EXIT_CODE="0"]
