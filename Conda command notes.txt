@@ -1,0 +1,14 @@
+Conda Commands
+============
+
+### Basic Commands
+
+| Command | Description |
+| ------- | ----------- |
+| `conda create -name evn_name python==3.9` | Create conda environment |
+| `conda info --envs` | List all conda environment |
+| `conda activate env_name` | Activate conda environment |
+| `conda install package` | Install python package |
+| `conda env export > env.yml` | Export conda environment files |
+| `conda remove -n env_name --all` | Remove conda environment |
+
